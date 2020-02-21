@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wac-eV-gPl">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--sequence-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <hostingController identifier="sequence" title="sequence" hidesWhenLoading="NO" id="3mp-fW-waa" customClass="HostingController" customModule="sinerpro_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-278" y="-320"/>
+        </scene>
+        <!--scale chords-->
+        <scene sceneID="a5r-VV-NGd">
+            <objects>
+                <controller identifier="scalechord" title="scale chords" fullBounds="YES" id="Wac-eV-gPl" customClass="ScaleChordKeyboard" customModule="sinerpro_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="1" alignment="left" id="OMp-3O-9WO">
+                            <items>
+                                <group width="0.33000000000000002" height="1" alignment="left" layout="vertical" id="Wi5-NM-U5M">
+                                    <items>
+                                        <group width="1" height="0.41999999999999998" alignment="left" layout="vertical" id="y1M-M1-zOs">
+                                            <items>
+                                                <button width="1" height="0.33000000000000002" alignment="left" title="I" id="HDE-sj-PDi">
+                                                    <color key="titleColor" red="0.08235294118" green="0.12549019610000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="pushKey1" destination="Wac-eV-gPl" id="tNv-zh-Fhz"/>
+                                                    </connections>
+                                                </button>
+                                                <button width="1" height="0.33000000000000002" alignment="left" title="II" id="P5A-ap-Axl">
+                                                    <color key="titleColor" red="0.08235294118" green="0.12549019610000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="pushKey3" destination="Wac-eV-gPl" id="jZt-5l-pOS"/>
+                                                    </connections>
+                                                </button>
+                                                <button width="1" height="0.33000000000000002" alignment="left" title="III" id="jdH-cP-gsu">
+                                                    <color key="titleColor" red="0.08235294118" green="0.12549019610000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="pushKey5" destination="Wac-eV-gPl" id="c9q-GU-UZV"/>
+                                                    </connections>
+                                                </button>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="0.56999999999999995" alignment="left" verticalAlignment="bottom" layout="vertical" id="MSi-Yy-XzS">
+                                            <items>
+                                                <button width="1" height="0.25" alignment="left" title="IV" id="h64-GC-2UH">
+                                                    <color key="titleColor" red="0.08235294118" green="0.12549019610000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="pushKey6" destination="Wac-eV-gPl" id="TRl-ZS-a8z"/>
+                                                    </connections>
+                                                </button>
+                                                <button width="1" height="0.25" alignment="left" title="V" id="xrG-lW-0NO">
+                                                    <color key="titleColor" red="0.08235294118" green="0.12549019610000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="pushKey8" destination="Wac-eV-gPl" id="ZYB-m9-oJD"/>
+                                                    </connections>
+                                                </button>
+                                                <button width="1" height="0.25" alignment="left" title="VI" id="HxV-65-zCM">
+                                                    <color key="titleColor" red="0.08235294118" green="0.12549019610000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="pushKey10" destination="Wac-eV-gPl" id="jAD-MG-QsY"/>
+                                                    </connections>
+                                                </button>
+                                                <button width="1" height="0.25" alignment="left" title="VII" id="pca-4X-bHP">
+                                                    <color key="titleColor" red="0.08235294118" green="0.12549019610000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="pushKey12" destination="Wac-eV-gPl" id="b5I-fb-nnY"/>
+                                                    </connections>
+                                                </button>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                                <group width="0.25" height="1" alignment="left" layout="vertical" id="KrS-OS-tsX">
+                                    <items>
+                                        <group width="1" height="0.41999999999999998" alignment="left" layout="vertical" id="cbG-iN-VFV">
+                                            <items>
+                                                <button width="1" height="0.33000000000000002" alignment="left" verticalAlignment="center" id="cf9-tN-ng1">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <connections>
+                                                        <action selector="pushKey2" destination="Wac-eV-gPl" id="otA-xW-E3E"/>
+                                                    </connections>
+                                                </button>
+                                                <button width="1" height="0.33000000000000002" alignment="left" verticalAlignment="center" id="TzV-Ut-kNz">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <connections>
+                                                        <action selector="pushKey4" destination="Wac-eV-gPl" id="Ati-RL-6fi"/>
+                                                    </connections>
+                                                </button>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="0.56999999999999995" alignment="left" verticalAlignment="bottom" layout="vertical" id="0yY-gZ-xzr">
+                                            <items>
+                                                <button width="1" height="0.25" alignment="left" verticalAlignment="center" id="See-42-HrK">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <connections>
+                                                        <action selector="pushKey7" destination="Wac-eV-gPl" id="aMh-0g-a6s"/>
+                                                    </connections>
+                                                </button>
+                                                <button width="1" height="0.25" alignment="left" verticalAlignment="center" id="YEs-M9-mR5">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <connections>
+                                                        <action selector="pushKey9" destination="Wac-eV-gPl" id="ijB-t9-722"/>
+                                                    </connections>
+                                                </button>
+                                                <button width="1" height="0.25" alignment="left" verticalAlignment="center" id="pUS-nN-Ccs">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <connections>
+                                                        <action selector="pushKey11" destination="Wac-eV-gPl" id="OUO-nd-TAg"/>
+                                                    </connections>
+                                                </button>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                                <group width="0.40000000000000002" height="1" alignment="right" layout="vertical" id="dkH-aR-psg">
+                                    <items>
+                                        <picker width="1" height="0.20000000000000001" alignment="right" focusStyle="stack" id="9RT-Kp-rNp">
+                                            <connections>
+                                                <action selector="changeScaleRootPicker:" destination="Wac-eV-gPl" id="Q5Y-Gy-5P1"/>
+                                            </connections>
+                                        </picker>
+                                        <label height="0.10000000000000001" alignment="center" textAlignment="center" id="HJ0-8d-Mkz">
+                                            <color key="textColor" red="0.45716894250000001" green="1" blue="0.49945951500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="9"/>
+                                        </label>
+                                        <button width="1" height="0.20000000000000001" alignment="left" verticalAlignment="bottom" title="min" id="lHm-Cc-bBe">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="pushAlternativeChord1" destination="Wac-eV-gPl" id="bkq-Rh-4dY"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="0.20000000000000001" alignment="left" verticalAlignment="bottom" title="dom" id="rzn-z5-Cqq">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="pushAlternativeChord2" destination="Wac-eV-gPl" id="hgP-T7-WZ3"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="0.14999999999999999" alignment="left" verticalAlignment="bottom" title="dim" id="lRx-mU-NW0">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="pushAlternativeChord3" destination="Wac-eV-gPl" id="ZF0-fY-5xa"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="0.14999999999999999" alignment="left" verticalAlignment="bottom" title="aug" id="zht-12-1bp">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="pushAlternativeChord4" destination="Wac-eV-gPl" id="3CV-m5-4In"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="alternativeChordButton1" destination="lHm-Cc-bBe" id="1Rg-eT-vna"/>
+                        <outlet property="alternativeChordButton2" destination="rzn-z5-Cqq" id="aTb-k4-Gh6"/>
+                        <outlet property="alternativeChordButton3" destination="lRx-mU-NW0" id="yR7-kM-EIW"/>
+                        <outlet property="alternativeChordButton4" destination="zht-12-1bp" id="x3o-8M-Wj3"/>
+                        <outlet property="chordNameLabel" destination="HJ0-8d-Mkz" id="5YS-s2-JGV"/>
+                        <outlet property="scaleRootPicker" destination="9RT-Kp-rNp" id="RSh-CT-uiU"/>
+                        <segue destination="rqx-Nu-Ufb" kind="relationship" relationship="nextPage" id="cnm-JC-iIO"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-545" y="-481"/>
+        </scene>
+        <!--chord-->
+        <scene sceneID="CfN-JM-9vv">
+            <objects>
+                <controller identifier="chord" title="chord" fullBounds="YES" id="rqx-Nu-Ufb" customClass="ChordMaker" customModule="sinerpro_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="1" alignment="left" layout="vertical" id="my7-qh-F5b">
+                            <items>
+                                <group width="1" height="0.55000000000000004" alignment="left" layout="vertical" id="nUw-vA-RvT">
+                                    <items>
+                                        <group width="1" height="0.53000000000000003" alignment="center" id="9j1-46-akM">
+                                            <items>
+                                                <picker width="0.28000000000000003" height="1" alignment="left" focusStyle="stack" indicatorMode="shownWhileFocused" id="RCY-SL-uDA">
+                                                    <connections>
+                                                        <action selector="rootPickerChanged:" destination="rqx-Nu-Ufb" id="x18-VG-HSz"/>
+                                                    </connections>
+                                                </picker>
+                                                <picker width="0.40999999999999998" height="1" alignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="afF-8d-4wv">
+                                                    <connections>
+                                                        <action selector="chordTypePickerChanged:" destination="rqx-Nu-Ufb" id="3SY-oG-9cI"/>
+                                                    </connections>
+                                                </picker>
+                                                <picker width="0.31" height="1" alignment="right" focusStyle="stack" indicatorMode="shownWhileFocused" id="f66-5e-AUu">
+                                                    <connections>
+                                                        <action selector="chordDetailTypePickerChanged:" destination="rqx-Nu-Ufb" id="6sr-R1-p6k"/>
+                                                    </connections>
+                                                </picker>
+                                            </items>
+                                        </group>
+                                        <picker width="1" height="0.46999999999999997" alignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="Ryo-qU-MFA">
+                                            <connections>
+                                                <action selector="onRootPickerChanged:" destination="rqx-Nu-Ufb" id="uCg-Io-p5e"/>
+                                            </connections>
+                                        </picker>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.40000000000000002" alignment="center" verticalAlignment="bottom" layout="vertical" id="eeJ-ah-7Ho">
+                                    <items>
+                                        <group width="1" height="0.59999999999999998" alignment="center" id="l1F-LN-QSR">
+                                            <items>
+                                                <button width="0.5" height="1" alignment="left" title="▶︎" id="sgk-RU-u8c">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="font" type="system" weight="light" pointSize="21"/>
+                                                    <connections>
+                                                        <action selector="playChordSoundFile" destination="rqx-Nu-Ufb" id="ItV-M1-wtk"/>
+                                                    </connections>
+                                                </button>
+                                                <button width="0.46999999999999997" height="1" alignment="right" title="+" id="e7R-nI-dLA">
+                                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="font" type="system" weight="semibold" pointSize="24"/>
+                                                    <connections>
+                                                        <action selector="pushAddChordToSequence" destination="rqx-Nu-Ufb" id="LbW-l4-Jb1"/>
+                                                    </connections>
+                                                </button>
+                                            </items>
+                                        </group>
+                                        <button width="1" height="0.40000000000000002" alignment="center" verticalAlignment="bottom" title="section" id="seh-dd-xaL">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            <connections>
+                                                <action selector="pushAddSeparator" destination="rqx-Nu-Ufb" id="aJ9-XZ-gYf"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="addChordButton" destination="e7R-nI-dLA" id="1c1-PD-wkR"/>
+                        <outlet property="chordDetailTypePicker" destination="f66-5e-AUu" id="d10-LD-Dwv"/>
+                        <outlet property="chordTypePicker" destination="afF-8d-4wv" id="O5t-hP-0do"/>
+                        <outlet property="onRootPicker" destination="Ryo-qU-MFA" id="k9c-3M-OVk"/>
+                        <outlet property="rootPicker" destination="RCY-SL-uDA" id="mWr-bz-1LF"/>
+                        <segue destination="3mp-fW-waa" kind="relationship" relationship="nextPage" id="UWd-Vb-JP4"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-545" y="-119"/>
+        </scene>
+    </scenes>
+</document>

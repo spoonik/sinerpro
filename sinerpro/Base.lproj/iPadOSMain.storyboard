@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="654-dX-5zP">
+    <device id="ipad11_0rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Gdt-wR-xP7">
+            <objects>
+                <viewController modalPresentationStyle="overCurrentContext" hidesBottomBarWhenPushed="YES" id="654-dX-5zP" customClass="ViewController" customModule="siner_pro" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" id="gSM-YT-v6p" customClass="TouchableView" customModule="siner_pro" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView multipleTouchEnabled="YES" contentMode="scaleAspectFit" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="VK4-M6-qSm">
+                                <rect key="frame" x="0.0" y="0.0" width="1174" height="814"/>
+                                <subviews>
+                                    <stackView multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k8K-7I-gKq">
+                                        <rect key="frame" x="0.0" y="0.0" width="1174" height="39"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="LSR-Ax-GIX">
+                                                <rect key="frame" x="0.0" y="0.0" width="582" height="39"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="251" text="siner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhE-h3-ozc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="288.5" height="39"/>
+                                                        <accessibility key="accessibilityConfiguration">
+                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                            <bool key="isElement" value="NO"/>
+                                                        </accessibility>
+                                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="31"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="754" text=" " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMO-Xt-sJf">
+                                                        <rect key="frame" x="293.5" y="0.0" width="288.5" height="39"/>
+                                                        <accessibility key="accessibilityConfiguration">
+                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                            <bool key="isElement" value="NO"/>
+                                                        </accessibility>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ovx-Vj-SMy">
+                                                <rect key="frame" x="592" y="0.0" width="582" height="39"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="400" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" layoutMarginsFollowReadableWidth="YES" text="Set Scale Root of " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220" translatesAutoresizingMaskIntoConstraints="NO" id="wKT-Xw-aID">
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="39"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="248" horizontalCompressionResistancePriority="743" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49O-Cn-33Z">
+                                                        <rect key="frame" x="282" y="0.0" width="96.5" height="39"/>
+                                                        <accessibility key="accessibilityConfiguration">
+                                                            <accessibilityTraits key="traits" button="YES" allowsDirectInteraction="YES"/>
+                                                        </accessibility>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <state key="normal" title="Triads"/>
+                                                        <connections>
+                                                            <action selector="pushSetTriadScaleRootKey:" destination="654-dX-5zP" eventType="touchUpInside" id="SFB-6U-466"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="400" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" layoutMarginsFollowReadableWidth="YES" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220" translatesAutoresizingMaskIntoConstraints="NO" id="McR-Vw-f2m">
+                                                        <rect key="frame" x="380.5" y="0.0" width="32.5" height="39"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="244" horizontalCompressionResistancePriority="692" verticalCompressionResistancePriority="700" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOQ-21-EMd">
+                                                        <rect key="frame" x="415" y="0.0" width="118" height="39"/>
+                                                        <accessibility key="accessibilityConfiguration">
+                                                            <accessibilityTraits key="traits" button="YES" allowsDirectInteraction="YES"/>
+                                                        </accessibility>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <state key="normal" title="Tetrads">
+                                                            <color key="titleColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="pushSetTetradScaleRootKey:" destination="654-dX-5zP" eventType="touchUpInside" id="PnL-cp-r2v"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aV2-5E-wfX">
+                                                        <rect key="frame" x="535" y="0.0" width="47" height="39"/>
+                                                        <connections>
+                                                            <segue destination="lkN-4U-RTX" kind="presentation" id="ReZ-Hj-xYm"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="248" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="JRJ-XY-5pS">
+                                        <rect key="frame" x="0.0" y="39" width="1174" height="775"/>
+                                        <subviews>
+                                            <stackView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rBe-Nm-gjD">
+                                                <rect key="frame" x="0.0" y="0.0" width="361.5" height="775"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="245" verticalCompressionResistancePriority="744" insetsLayoutMarginsFromSafeArea="NO" image="keys" translatesAutoresizingMaskIntoConstraints="NO" id="Jhs-Bz-vQk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="361.5" height="383.5"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="245" verticalCompressionResistancePriority="745" insetsLayoutMarginsFromSafeArea="NO" image="keyboard_light" translatesAutoresizingMaskIntoConstraints="NO" id="Lc2-2E-2cR">
+                                                        <rect key="frame" x="0.0" y="391.5" width="361.5" height="383.5"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="254" verticalHuggingPriority="245" horizontalCompressionResistancePriority="753" verticalCompressionResistancePriority="744" insetsLayoutMarginsFromSafeArea="NO" image="transparent" translatesAutoresizingMaskIntoConstraints="NO" id="9xG-Qs-cdX">
+                                                <rect key="frame" x="361.5" y="0.0" width="812.5" height="775"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="k8K-7I-gKq" firstAttribute="top" secondItem="VK4-M6-qSm" secondAttribute="top" id="9BA-hl-52T"/>
+                                    <constraint firstAttribute="trailing" secondItem="k8K-7I-gKq" secondAttribute="trailing" id="SnZ-GJ-vdL"/>
+                                    <constraint firstItem="k8K-7I-gKq" firstAttribute="leading" secondItem="VK4-M6-qSm" secondAttribute="leading" id="uEj-ae-Cgo"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.082352941176470587" green="0.12549019607843137" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="VK4-M6-qSm" secondAttribute="trailing" id="IDz-8i-h6U"/>
+                            <constraint firstItem="VK4-M6-qSm" firstAttribute="leading" secondItem="5kx-W6-r6u" secondAttribute="leading" id="Jcg-tJ-wlB"/>
+                            <constraint firstItem="VK4-M6-qSm" firstAttribute="top" secondItem="5kx-W6-r6u" secondAttribute="top" id="h2x-p6-Lqp"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="VK4-M6-qSm" secondAttribute="bottom" id="yJe-7C-T8M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5kx-W6-r6u" propertyAccessControl="all"/>
+                        <connections>
+                            <outlet property="chordLabel" destination="vMO-Xt-sJf" id="u2c-w6-QK1"/>
+                            <outlet property="ipadKeyboardStackView" destination="rBe-Nm-gjD" id="cBJ-Gj-iY2"/>
+                            <outlet property="keyboardHigh" destination="Lc2-2E-2cR" id="cCs-TI-XWQ"/>
+                            <outlet property="keyboardLow" destination="Jhs-Bz-vQk" id="4a1-D6-jpO"/>
+                            <outlet property="parentStackView" destination="VK4-M6-qSm" id="EY5-Je-jiT"/>
+                            <outlet property="touchableStackView" destination="JRJ-XY-5pS" id="ylt-6R-7A4"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="touchableView" destination="gSM-YT-v6p" id="wH2-ce-wzf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDu-9e-dQ0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172" y="219"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="KkL-fE-9GI">
+            <objects>
+                <viewController id="lkN-4U-RTX" customClass="HelpViewController" customModule="siner_pro" sceneMemberID="viewController">
+                    <view key="view" tag="2" contentMode="scaleToFill" restorationIdentifier="help" id="mCv-Lx-9yq">
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="794"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v1Q-Ga-1I0" customClass="PDFView">
+                                <rect key="frame" x="0.0" y="56" width="712" height="738"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GM5-xl-G9H">
+                                <rect key="frame" x="0.0" y="0.0" width="712" height="56"/>
+                                <items>
+                                    <navigationItem title="manual" id="cMd-ZC-f7H">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="q4y-Bu-pEg">
+                                            <connections>
+                                                <action selector="pushDone:" destination="lkN-4U-RTX" id="wyB-47-8Bj"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v1Q-Ga-1I0" firstAttribute="top" secondItem="GM5-xl-G9H" secondAttribute="bottom" id="186-xG-3YZ"/>
+                            <constraint firstItem="GM5-xl-G9H" firstAttribute="top" secondItem="1s3-yI-eFZ" secondAttribute="top" id="4vT-Gv-FMr"/>
+                            <constraint firstItem="GM5-xl-G9H" firstAttribute="top" secondItem="1s3-yI-eFZ" secondAttribute="top" id="61w-aL-iHL"/>
+                            <constraint firstAttribute="bottom" secondItem="v1Q-Ga-1I0" secondAttribute="bottom" id="MSX-bW-sp1"/>
+                            <constraint firstAttribute="trailing" secondItem="v1Q-Ga-1I0" secondAttribute="trailing" id="Rc0-gj-naR"/>
+                            <constraint firstItem="GM5-xl-G9H" firstAttribute="leading" secondItem="mCv-Lx-9yq" secondAttribute="leading" id="Spm-KB-Hbq"/>
+                            <constraint firstItem="v1Q-Ga-1I0" firstAttribute="top" secondItem="GM5-xl-G9H" secondAttribute="bottom" id="a5B-Tk-Bbd"/>
+                            <constraint firstItem="v1Q-Ga-1I0" firstAttribute="leading" secondItem="mCv-Lx-9yq" secondAttribute="leading" id="rPv-4H-355"/>
+                            <constraint firstAttribute="trailing" secondItem="GM5-xl-G9H" secondAttribute="trailing" id="waA-Il-Zn0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1s3-yI-eFZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="pdfView" destination="v1Q-Ga-1I0" id="ZIC-LE-am2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KgC-Gt-x2L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172" y="963"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="keyboard_light" width="449" height="1079"/>
+        <image name="keys" width="449" height="1079"/>
+        <image name="transparent" width="1010" height="809"/>
+    </resources>
+</document>

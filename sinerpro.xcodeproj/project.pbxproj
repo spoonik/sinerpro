@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E11A7B3231D0C8C00FE180C /* iPadOSMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E11A7B1231D0C8C00FE180C /* iPadOSMain.storyboard */; };
+		8E16B0EF2061C05A001F9B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E16B0EE2061C05A001F9B6A /* AppDelegate.swift */; };
+		8E16B0F12061C05A001F9B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E16B0F02061C05A001F9B6A /* ViewController.swift */; };
+		8E16B0F42061C05A001F9B6A /* iPhoneMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E16B0F22061C05A001F9B6A /* iPhoneMain.storyboard */; };
+		8E16B0F62061C05A001F9B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E16B0F52061C05A001F9B6A /* Assets.xcassets */; };
+		8E16B0F92061C05A001F9B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E16B0F72061C05A001F9B6A /* LaunchScreen.storyboard */; };
+		8E16B0FE2061C05A001F9B6A /* sinerpro.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8E16B0FD2061C05A001F9B6A /* sinerpro.app */; platformFilter = ios; };
+		8E16B1062061C05A001F9B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E16B1052061C05A001F9B6A /* Assets.xcassets */; };
+		8E16B10D2061C05A001F9B6A /* sinerpro.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E16B10C2061C05A001F9B6A /* sinerpro.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E16B1182061C05A001F9B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E16B1172061C05A001F9B6A /* Assets.xcassets */; };
+		8E21A42C21293C8C00116A8E /* D2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42721293C8B00116A8E /* D2.m4a */; };
+		8E21A42D21293C8C00116A8E /* C2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42821293C8B00116A8E /* C2.m4a */; };
+		8E21A42E21293C8C00116A8E /* Cs2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42921293C8C00116A8E /* Cs2.m4a */; };
+		8E21A42F21293C8C00116A8E /* Ds2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42A21293C8C00116A8E /* Ds2.m4a */; };
+		8E21A43021293C8C00116A8E /* E2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42B21293C8C00116A8E /* E2.m4a */; };
+		8E21A431212941B400116A8E /* AudioUnitMIDISynthChordPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EBFB22128E03200B455CB /* AudioUnitMIDISynthChordPlayer.swift */; };
+		8E21A432212941B400116A8E /* AudioUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EBFB52128E0E700B455CB /* AudioUtils.swift */; };
+		8E21A43421294BDD00116A8E /* A2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A43321294BDD00116A8E /* A2.aif */; };
+		8E42C9FB213211A400D8F8E6 /* B1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9EF213211A100D8F8E6 /* B1.m4a */; };
+		8E42C9FC213211A400D8F8E6 /* B1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9EF213211A100D8F8E6 /* B1.m4a */; };
+		8E42C9FD213211A400D8F8E6 /* D1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F0213211A200D8F8E6 /* D1.m4a */; };
+		8E42C9FE213211A400D8F8E6 /* D1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F0213211A200D8F8E6 /* D1.m4a */; };
+		8E42C9FF213211A400D8F8E6 /* C1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F1213211A200D8F8E6 /* C1.m4a */; };
+		8E42CA00213211A400D8F8E6 /* C1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F1213211A200D8F8E6 /* C1.m4a */; };
+		8E42CA01213211A400D8F8E6 /* A1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F2213211A200D8F8E6 /* A1.m4a */; };
+		8E42CA02213211A400D8F8E6 /* A1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F2213211A200D8F8E6 /* A1.m4a */; };
+		8E42CA03213211A400D8F8E6 /* F1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F3213211A200D8F8E6 /* F1.m4a */; };
+		8E42CA04213211A400D8F8E6 /* F1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F3213211A200D8F8E6 /* F1.m4a */; };
+		8E42CA05213211A400D8F8E6 /* Cs1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F4213211A300D8F8E6 /* Cs1.m4a */; };
+		8E42CA06213211A400D8F8E6 /* Cs1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F4213211A300D8F8E6 /* Cs1.m4a */; };
+		8E42CA07213211A400D8F8E6 /* Ds1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F5213211A300D8F8E6 /* Ds1.m4a */; };
+		8E42CA08213211A400D8F8E6 /* Ds1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F5213211A300D8F8E6 /* Ds1.m4a */; };
+		8E42CA09213211A400D8F8E6 /* E1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F6213211A300D8F8E6 /* E1.m4a */; };
+		8E42CA0A213211A400D8F8E6 /* E1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F6213211A300D8F8E6 /* E1.m4a */; };
+		8E42CA0B213211A400D8F8E6 /* Fs1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F7213211A300D8F8E6 /* Fs1.m4a */; };
+		8E42CA0C213211A400D8F8E6 /* Fs1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F7213211A300D8F8E6 /* Fs1.m4a */; };
+		8E42CA0D213211A400D8F8E6 /* G1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F8213211A300D8F8E6 /* G1.m4a */; };
+		8E42CA0E213211A400D8F8E6 /* G1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F8213211A300D8F8E6 /* G1.m4a */; };
+		8E42CA0F213211A400D8F8E6 /* Gs1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F9213211A300D8F8E6 /* Gs1.m4a */; };
+		8E42CA10213211A400D8F8E6 /* Gs1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9F9213211A300D8F8E6 /* Gs1.m4a */; };
+		8E42CA11213211A400D8F8E6 /* As1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9FA213211A300D8F8E6 /* As1.m4a */; };
+		8E42CA12213211A400D8F8E6 /* As1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E42C9FA213211A300D8F8E6 /* As1.m4a */; };
+		8E4FD098232314EC00E3F2A3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4FD097232314EC00E3F2A3 /* CoreMotion.framework */; };
+		8E554ED12061DDA800C8C3DA /* A2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECF2061DD9B00C8C3DA /* A2.m4a */; };
+		8E554ED22061DDA800C8C3DA /* As2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC92061DD9A00C8C3DA /* As2.m4a */; };
+		8E554ED32061DDA800C8C3DA /* B2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECD2061DD9B00C8C3DA /* B2.m4a */; };
+		8E554ED42061DDA800C8C3DA /* C3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECA2061DD9A00C8C3DA /* C3.m4a */; };
+		8E554ED52061DDA800C8C3DA /* Cs3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC82061DD9A00C8C3DA /* Cs3.m4a */; };
+		8E554ED62061DDA800C8C3DA /* D3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC62061DD9A00C8C3DA /* D3.m4a */; };
+		8E554ED72061DDA800C8C3DA /* Ds3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECE2061DD9B00C8C3DA /* Ds3.m4a */; };
+		8E554ED82061DDA800C8C3DA /* E3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC52061DD9A00C8C3DA /* E3.m4a */; };
+		8E554ED92061DDA800C8C3DA /* F2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC72061DD9A00C8C3DA /* F2.m4a */; };
+		8E554EDA2061DDA800C8C3DA /* Fs2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ED02061DD9B00C8C3DA /* Fs2.m4a */; };
+		8E554EDB2061DDA800C8C3DA /* G2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECB2061DD9A00C8C3DA /* G2.m4a */; };
+		8E554EDC2061DDA800C8C3DA /* Gs2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECC2061DD9B00C8C3DA /* Gs2.m4a */; };
+		8E554EEA2061E12200C8C3DA /* F3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE42061E08200C8C3DA /* F3.m4a */; };
+		8E554EEB2061E12200C8C3DA /* Fs3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE62061E08200C8C3DA /* Fs3.m4a */; };
+		8E554EEC2061E12200C8C3DA /* G3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE22061E08100C8C3DA /* G3.m4a */; };
+		8E554EED2061E12200C8C3DA /* Gs3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE92061E08200C8C3DA /* Gs3.m4a */; };
+		8E554EEE2061E12200C8C3DA /* A3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE72061E08200C8C3DA /* A3.m4a */; };
+		8E554EEF2061E12200C8C3DA /* As3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EDD2061E08000C8C3DA /* As3.m4a */; };
+		8E554EF02061E12200C8C3DA /* B3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE52061E08200C8C3DA /* B3.m4a */; };
+		8E554EF12061E12200C8C3DA /* C4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EDE2061E08000C8C3DA /* C4.m4a */; };
+		8E554EF22061E12200C8C3DA /* Cs4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE82061E08200C8C3DA /* Cs4.m4a */; };
+		8E554EF32061E12200C8C3DA /* D4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE12061E08100C8C3DA /* D4.m4a */; };
+		8E554EF42061E12200C8C3DA /* Ds4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EDF2061E08000C8C3DA /* Ds4.m4a */; };
+		8E554EF52061E12200C8C3DA /* E4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE32061E08100C8C3DA /* E4.m4a */; };
+		8E554EF62061E12200C8C3DA /* F4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE02061E08100C8C3DA /* F4.m4a */; };
+		8E65A6272130F11200BCD088 /* PlayChordProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E65A6262130F11200BCD088 /* PlayChordProtocol.swift */; };
+		8E65A6282130F11200BCD088 /* PlayChordProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E65A6262130F11200BCD088 /* PlayChordProtocol.swift */; };
+		8E7DA26824007CF8008E67E1 /* ScaleChordKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E871D792322F96A0087FCD5 /* ScaleChordKeyboard.swift */; };
+		8E7EBFB121286BFF00B455CB /* TouchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EBFB021286BFE00B455CB /* TouchableView.swift */; };
+		8E840F4D230EA7E700577E06 /* AnalyzeTouchForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E840F4C230EA7E700577E06 /* AnalyzeTouchForm.swift */; };
+		8E95C817212C37C200D3C9DB /* C2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42821293C8B00116A8E /* C2.m4a */; };
+		8E95C818212C37C200D3C9DB /* Cs2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42921293C8C00116A8E /* Cs2.m4a */; };
+		8E95C819212C37C200D3C9DB /* D2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42721293C8B00116A8E /* D2.m4a */; };
+		8E95C81A212C37C200D3C9DB /* Ds2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42A21293C8C00116A8E /* Ds2.m4a */; };
+		8E95C81B212C37C200D3C9DB /* E2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E21A42B21293C8C00116A8E /* E2.m4a */; };
+		8ED12F9921291916003363FF /* Perfect Sine.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 8ED12F9821291916003363FF /* Perfect Sine.sf2 */; };
+		8ED12F9E21292FCD003363FF /* silent.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8ED85A71206D0F150026A766 /* silent.m4a */; };
+		8ED12F9F21292FCD003363FF /* F2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC72061DD9A00C8C3DA /* F2.m4a */; };
+		8ED12FA021292FCD003363FF /* Fs2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ED02061DD9B00C8C3DA /* Fs2.m4a */; };
+		8ED12FA121292FCD003363FF /* G2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECB2061DD9A00C8C3DA /* G2.m4a */; };
+		8ED12FA221292FCD003363FF /* Gs2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECC2061DD9B00C8C3DA /* Gs2.m4a */; };
+		8ED12FA321292FCD003363FF /* A2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECF2061DD9B00C8C3DA /* A2.m4a */; };
+		8ED12FA421292FCD003363FF /* As2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC92061DD9A00C8C3DA /* As2.m4a */; };
+		8ED12FA521292FCD003363FF /* B2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECD2061DD9B00C8C3DA /* B2.m4a */; };
+		8ED12FA621292FCD003363FF /* C3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECA2061DD9A00C8C3DA /* C3.m4a */; };
+		8ED12FA721292FCD003363FF /* Cs3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC82061DD9A00C8C3DA /* Cs3.m4a */; };
+		8ED12FA821292FCD003363FF /* D3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC62061DD9A00C8C3DA /* D3.m4a */; };
+		8ED12FA921292FCD003363FF /* Ds3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554ECE2061DD9B00C8C3DA /* Ds3.m4a */; };
+		8ED12FAA21292FCD003363FF /* E3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EC52061DD9A00C8C3DA /* E3.m4a */; };
+		8ED12FAB21292FCD003363FF /* F3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE42061E08200C8C3DA /* F3.m4a */; };
+		8ED12FAC21292FCD003363FF /* Fs3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE62061E08200C8C3DA /* Fs3.m4a */; };
+		8ED12FAD21292FCD003363FF /* G3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE22061E08100C8C3DA /* G3.m4a */; };
+		8ED12FAE21292FCD003363FF /* Gs3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE92061E08200C8C3DA /* Gs3.m4a */; };
+		8ED12FAF21292FCD003363FF /* A3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE72061E08200C8C3DA /* A3.m4a */; };
+		8ED12FB021292FCD003363FF /* As3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EDD2061E08000C8C3DA /* As3.m4a */; };
+		8ED12FB121292FCD003363FF /* B3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE52061E08200C8C3DA /* B3.m4a */; };
+		8ED12FB221292FCD003363FF /* C4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EDE2061E08000C8C3DA /* C4.m4a */; };
+		8ED12FB321292FCD003363FF /* Cs4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE82061E08200C8C3DA /* Cs4.m4a */; };
+		8ED12FB421292FCD003363FF /* D4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE12061E08100C8C3DA /* D4.m4a */; };
+		8ED12FB521292FCD003363FF /* Ds4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EDF2061E08000C8C3DA /* Ds4.m4a */; };
+		8ED12FB621292FCD003363FF /* E4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE32061E08100C8C3DA /* E4.m4a */; };
+		8ED12FB721292FCD003363FF /* F4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E554EE02061E08100C8C3DA /* F4.m4a */; };
+		8ED85A72206D0F160026A766 /* silent.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8ED85A71206D0F150026A766 /* silent.m4a */; };
+		8EE52427230CD66D00F980F1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE52426230CD66D00F980F1 /* ComplicationController.swift */; };
+		8EEF6A26230CC996007A1A02 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF6A25230CC996007A1A02 /* Interface.storyboard */; };
+		8EEF6A31230CC9FE007A1A02 /* ChordMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A27230CC9FA007A1A02 /* ChordMaker.swift */; };
+		8EEF6A33230CC9FE007A1A02 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A29230CC9FB007A1A02 /* ExtensionDelegate.swift */; };
+		8EEF6A34230CC9FE007A1A02 /* OneChordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A2A230CC9FB007A1A02 /* OneChordModel.swift */; };
+		8EEF6A35230CC9FE007A1A02 /* ChordSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A2B230CC9FC007A1A02 /* ChordSequence.swift */; };
+		8EEF6A36230CC9FE007A1A02 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A2C230CC9FC007A1A02 /* HostingController.swift */; };
+		8EEF6A37230CC9FE007A1A02 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A2D230CC9FD007A1A02 /* UIColorHex.swift */; };
+		8EEF6A38230CC9FE007A1A02 /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A2E230CC9FD007A1A02 /* SequenceView.swift */; };
+		8EEF6A3A230CC9FE007A1A02 /* ChordDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A30230CC9FE007A1A02 /* ChordDefines.swift */; };
+		8EEF6A3B230CCABE007A1A02 /* OneChordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A2A230CC9FB007A1A02 /* OneChordModel.swift */; };
+		8EEF6A3C230CCAD9007A1A02 /* ChordDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A30230CC9FE007A1A02 /* ChordDefines.swift */; };
+		8EEF6A3E230CD072007A1A02 /* AudioFilesChordPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6A2F230CC9FD007A1A02 /* AudioFilesChordPlayer.swift */; };
+		8EF386AB23166149003D69A1 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF386AA23166149003D69A1 /* PDFKit.framework */; };
+		8EF386AD23166375003D69A1 /* manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8EF386AC23166375003D69A1 /* manual.pdf */; };
+		8EF386AF23166921003D69A1 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF386AE23166921003D69A1 /* HelpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E16B0FF2061C05A001F9B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E16B0E32061C059001F9B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E16B0FC2061C05A001F9B6A;
+			remoteInfo = "wKeys WatchKit App";
+		};
+		8E16B10E2061C05A001F9B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E16B0E32061C059001F9B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E16B10B2061C05A001F9B6A;
+			remoteInfo = "wKeys WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E16B11F2061C05A001F9B6A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E16B10D2061C05A001F9B6A /* sinerpro.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E16B1232061C05A001F9B6A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8E16B0FE2061C05A001F9B6A /* sinerpro.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E11A7B2231D0C8C00FE180C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPadOSMain.storyboard; sourceTree = "<group>"; };
+		8E16B0EB2061C059001F9B6A /* sinerpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sinerpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E16B0EE2061C05A001F9B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E16B0F02061C05A001F9B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E16B0F32061C05A001F9B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhoneMain.storyboard; sourceTree = "<group>"; };
+		8E16B0F52061C05A001F9B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E16B0F82061C05A001F9B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E16B0FA2061C05A001F9B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E16B0FD2061C05A001F9B6A /* sinerpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sinerpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E16B1052061C05A001F9B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E16B1072061C05A001F9B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E16B10C2061C05A001F9B6A /* sinerpro.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = sinerpro.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E16B1172061C05A001F9B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E16B12B2061C950001F9B6A /* sinerpro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sinerpro.entitlements; sourceTree = "<group>"; };
+		8E21A42721293C8B00116A8E /* D2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = D2.m4a; sourceTree = "<group>"; };
+		8E21A42821293C8B00116A8E /* C2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = C2.m4a; sourceTree = "<group>"; };
+		8E21A42921293C8C00116A8E /* Cs2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cs2.m4a; sourceTree = "<group>"; };
+		8E21A42A21293C8C00116A8E /* Ds2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ds2.m4a; sourceTree = "<group>"; };
+		8E21A42B21293C8C00116A8E /* E2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = E2.m4a; sourceTree = "<group>"; };
+		8E21A43321294BDD00116A8E /* A2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = A2.aif; sourceTree = "<group>"; };
+		8E42C9EF213211A100D8F8E6 /* B1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = B1.m4a; sourceTree = "<group>"; };
+		8E42C9F0213211A200D8F8E6 /* D1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = D1.m4a; sourceTree = "<group>"; };
+		8E42C9F1213211A200D8F8E6 /* C1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = C1.m4a; sourceTree = "<group>"; };
+		8E42C9F2213211A200D8F8E6 /* A1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = A1.m4a; sourceTree = "<group>"; };
+		8E42C9F3213211A200D8F8E6 /* F1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = F1.m4a; sourceTree = "<group>"; };
+		8E42C9F4213211A300D8F8E6 /* Cs1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cs1.m4a; sourceTree = "<group>"; };
+		8E42C9F5213211A300D8F8E6 /* Ds1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ds1.m4a; sourceTree = "<group>"; };
+		8E42C9F6213211A300D8F8E6 /* E1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = E1.m4a; sourceTree = "<group>"; };
+		8E42C9F7213211A300D8F8E6 /* Fs1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fs1.m4a; sourceTree = "<group>"; };
+		8E42C9F8213211A300D8F8E6 /* G1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = G1.m4a; sourceTree = "<group>"; };
+		8E42C9F9213211A300D8F8E6 /* Gs1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gs1.m4a; sourceTree = "<group>"; };
+		8E42C9FA213211A300D8F8E6 /* As1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = As1.m4a; sourceTree = "<group>"; };
+		8E4FD097232314EC00E3F2A3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		8E554EC52061DD9A00C8C3DA /* E3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = E3.m4a; sourceTree = "<group>"; };
+		8E554EC62061DD9A00C8C3DA /* D3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = D3.m4a; sourceTree = "<group>"; };
+		8E554EC72061DD9A00C8C3DA /* F2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = F2.m4a; sourceTree = "<group>"; };
+		8E554EC82061DD9A00C8C3DA /* Cs3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cs3.m4a; sourceTree = "<group>"; };
+		8E554EC92061DD9A00C8C3DA /* As2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = As2.m4a; sourceTree = "<group>"; };
+		8E554ECA2061DD9A00C8C3DA /* C3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = C3.m4a; sourceTree = "<group>"; };
+		8E554ECB2061DD9A00C8C3DA /* G2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = G2.m4a; sourceTree = "<group>"; };
+		8E554ECC2061DD9B00C8C3DA /* Gs2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gs2.m4a; sourceTree = "<group>"; };
+		8E554ECD2061DD9B00C8C3DA /* B2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = B2.m4a; sourceTree = "<group>"; };
+		8E554ECE2061DD9B00C8C3DA /* Ds3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ds3.m4a; sourceTree = "<group>"; };
+		8E554ECF2061DD9B00C8C3DA /* A2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = A2.m4a; sourceTree = "<group>"; };
+		8E554ED02061DD9B00C8C3DA /* Fs2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fs2.m4a; sourceTree = "<group>"; };
+		8E554EDD2061E08000C8C3DA /* As3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = As3.m4a; sourceTree = "<group>"; };
+		8E554EDE2061E08000C8C3DA /* C4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = C4.m4a; sourceTree = "<group>"; };
+		8E554EDF2061E08000C8C3DA /* Ds4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ds4.m4a; sourceTree = "<group>"; };
+		8E554EE02061E08100C8C3DA /* F4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = F4.m4a; sourceTree = "<group>"; };
+		8E554EE12061E08100C8C3DA /* D4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = D4.m4a; sourceTree = "<group>"; };
+		8E554EE22061E08100C8C3DA /* G3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = G3.m4a; sourceTree = "<group>"; };
+		8E554EE32061E08100C8C3DA /* E4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = E4.m4a; sourceTree = "<group>"; };
+		8E554EE42061E08200C8C3DA /* F3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = F3.m4a; sourceTree = "<group>"; };
+		8E554EE52061E08200C8C3DA /* B3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = B3.m4a; sourceTree = "<group>"; };
+		8E554EE62061E08200C8C3DA /* Fs3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fs3.m4a; sourceTree = "<group>"; };
+		8E554EE72061E08200C8C3DA /* A3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = A3.m4a; sourceTree = "<group>"; };
+		8E554EE82061E08200C8C3DA /* Cs4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cs4.m4a; sourceTree = "<group>"; };
+		8E554EE92061E08200C8C3DA /* Gs3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gs3.m4a; sourceTree = "<group>"; };
+		8E65A6262130F11200BCD088 /* PlayChordProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayChordProtocol.swift; sourceTree = "<group>"; };
+		8E7EBFB021286BFE00B455CB /* TouchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableView.swift; sourceTree = "<group>"; };
+		8E7EBFB22128E03200B455CB /* AudioUnitMIDISynthChordPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitMIDISynthChordPlayer.swift; sourceTree = "<group>"; };
+		8E7EBFB52128E0E700B455CB /* AudioUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUtils.swift; sourceTree = "<group>"; };
+		8E840F4C230EA7E700577E06 /* AnalyzeTouchForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyzeTouchForm.swift; sourceTree = "<group>"; };
+		8E871D792322F96A0087FCD5 /* ScaleChordKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleChordKeyboard.swift; sourceTree = "<group>"; };
+		8ED12F9821291916003363FF /* Perfect Sine.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Perfect Sine.sf2"; sourceTree = "<group>"; };
+		8ED85A71206D0F150026A766 /* silent.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = silent.m4a; sourceTree = "<group>"; };
+		8EE52426230CD66D00F980F1 /* ComplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		8EEF6A25230CC996007A1A02 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		8EEF6A27230CC9FA007A1A02 /* ChordMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordMaker.swift; sourceTree = "<group>"; };
+		8EEF6A29230CC9FB007A1A02 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8EEF6A2A230CC9FB007A1A02 /* OneChordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneChordModel.swift; sourceTree = "<group>"; };
+		8EEF6A2B230CC9FC007A1A02 /* ChordSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordSequence.swift; sourceTree = "<group>"; };
+		8EEF6A2C230CC9FC007A1A02 /* HostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		8EEF6A2D230CC9FD007A1A02 /* UIColorHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		8EEF6A2E230CC9FD007A1A02 /* SequenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
+		8EEF6A2F230CC9FD007A1A02 /* AudioFilesChordPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioFilesChordPlayer.swift; sourceTree = "<group>"; };
+		8EEF6A30230CC9FE007A1A02 /* ChordDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordDefines.swift; sourceTree = "<group>"; };
+		8EEF6A3F230CD40F007A1A02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF386AA23166149003D69A1 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		8EF386AC23166375003D69A1 /* manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = manual.pdf; sourceTree = "<group>"; };
+		8EF386AE23166921003D69A1 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E16B0E82061C059001F9B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF386AB23166149003D69A1 /* PDFKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E16B1092061C05A001F9B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4FD098232314EC00E3F2A3 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E16B0E22061C059001F9B6A = {
+			isa = PBXGroup;
+			children = (
+				8E41C7E1207035D30048FC4C /* Commons */,
+				8E16B0ED2061C05A001F9B6A /* sinerpro */,
+				8E16B1012061C05A001F9B6A /* sinerpro WatchKit App */,
+				8E16B1102061C05A001F9B6A /* sinerpro WatchKit Extension */,
+				8E16B0EC2061C05A001F9B6A /* Products */,
+				8E16B12C2061C950001F9B6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E16B0EC2061C05A001F9B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E16B0EB2061C059001F9B6A /* sinerpro.app */,
+				8E16B0FD2061C05A001F9B6A /* sinerpro.app */,
+				8E16B10C2061C05A001F9B6A /* sinerpro.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E16B0ED2061C05A001F9B6A /* sinerpro */ = {
+			isa = PBXGroup;
+			children = (
+				8E840F4C230EA7E700577E06 /* AnalyzeTouchForm.swift */,
+				8E7EBFB021286BFE00B455CB /* TouchableView.swift */,
+				8E16B0F22061C05A001F9B6A /* iPhoneMain.storyboard */,
+				8E11A7B1231D0C8C00FE180C /* iPadOSMain.storyboard */,
+				8EF386AE23166921003D69A1 /* HelpViewController.swift */,
+				8E16B0F02061C05A001F9B6A /* ViewController.swift */,
+				8E16B0F52061C05A001F9B6A /* Assets.xcassets */,
+				8E7EBFB22128E03200B455CB /* AudioUnitMIDISynthChordPlayer.swift */,
+				8E7EBFB52128E0E700B455CB /* AudioUtils.swift */,
+				8E16B0EE2061C05A001F9B6A /* AppDelegate.swift */,
+				8E16B0F72061C05A001F9B6A /* LaunchScreen.storyboard */,
+				8E16B12B2061C950001F9B6A /* sinerpro.entitlements */,
+				8E16B0FA2061C05A001F9B6A /* Info.plist */,
+			);
+			path = sinerpro;
+			sourceTree = "<group>";
+		};
+		8E16B1012061C05A001F9B6A /* sinerpro WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF6A25230CC996007A1A02 /* Interface.storyboard */,
+				8E16B1052061C05A001F9B6A /* Assets.xcassets */,
+				8E16B1072061C05A001F9B6A /* Info.plist */,
+			);
+			path = "sinerpro WatchKit App";
+			sourceTree = "<group>";
+		};
+		8E16B1102061C05A001F9B6A /* sinerpro WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E871D792322F96A0087FCD5 /* ScaleChordKeyboard.swift */,
+				8EEF6A2B230CC9FC007A1A02 /* ChordSequence.swift */,
+				8EEF6A2E230CC9FD007A1A02 /* SequenceView.swift */,
+				8EEF6A27230CC9FA007A1A02 /* ChordMaker.swift */,
+				8EEF6A2F230CC9FD007A1A02 /* AudioFilesChordPlayer.swift */,
+				8E16B1172061C05A001F9B6A /* Assets.xcassets */,
+				8EEF6A2D230CC9FD007A1A02 /* UIColorHex.swift */,
+				8EEF6A2C230CC9FC007A1A02 /* HostingController.swift */,
+				8EEF6A29230CC9FB007A1A02 /* ExtensionDelegate.swift */,
+				8EE52426230CD66D00F980F1 /* ComplicationController.swift */,
+				8EEF6A3F230CD40F007A1A02 /* Info.plist */,
+			);
+			path = "sinerpro WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8E16B1282061C6BF001F9B6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EF386AC23166375003D69A1 /* manual.pdf */,
+				8ED12F9821291916003363FF /* Perfect Sine.sf2 */,
+				8E16B1292061C74C001F9B6A /* sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8E16B1292061C74C001F9B6A /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8E21A43321294BDD00116A8E /* A2.aif */,
+				8ED85A71206D0F150026A766 /* silent.m4a */,
+				8E42C9F2213211A200D8F8E6 /* A1.m4a */,
+				8E42C9FA213211A300D8F8E6 /* As1.m4a */,
+				8E42C9EF213211A100D8F8E6 /* B1.m4a */,
+				8E42C9F1213211A200D8F8E6 /* C1.m4a */,
+				8E42C9F4213211A300D8F8E6 /* Cs1.m4a */,
+				8E42C9F0213211A200D8F8E6 /* D1.m4a */,
+				8E42C9F5213211A300D8F8E6 /* Ds1.m4a */,
+				8E42C9F6213211A300D8F8E6 /* E1.m4a */,
+				8E42C9F3213211A200D8F8E6 /* F1.m4a */,
+				8E42C9F7213211A300D8F8E6 /* Fs1.m4a */,
+				8E42C9F8213211A300D8F8E6 /* G1.m4a */,
+				8E42C9F9213211A300D8F8E6 /* Gs1.m4a */,
+				8E21A42821293C8B00116A8E /* C2.m4a */,
+				8E21A42921293C8C00116A8E /* Cs2.m4a */,
+				8E21A42721293C8B00116A8E /* D2.m4a */,
+				8E21A42A21293C8C00116A8E /* Ds2.m4a */,
+				8E21A42B21293C8C00116A8E /* E2.m4a */,
+				8E554EC72061DD9A00C8C3DA /* F2.m4a */,
+				8E554ED02061DD9B00C8C3DA /* Fs2.m4a */,
+				8E554ECB2061DD9A00C8C3DA /* G2.m4a */,
+				8E554ECC2061DD9B00C8C3DA /* Gs2.m4a */,
+				8E554ECF2061DD9B00C8C3DA /* A2.m4a */,
+				8E554EC92061DD9A00C8C3DA /* As2.m4a */,
+				8E554ECD2061DD9B00C8C3DA /* B2.m4a */,
+				8E554ECA2061DD9A00C8C3DA /* C3.m4a */,
+				8E554EC82061DD9A00C8C3DA /* Cs3.m4a */,
+				8E554EC62061DD9A00C8C3DA /* D3.m4a */,
+				8E554ECE2061DD9B00C8C3DA /* Ds3.m4a */,
+				8E554EC52061DD9A00C8C3DA /* E3.m4a */,
+				8E554EE42061E08200C8C3DA /* F3.m4a */,
+				8E554EE62061E08200C8C3DA /* Fs3.m4a */,
+				8E554EE22061E08100C8C3DA /* G3.m4a */,
+				8E554EE92061E08200C8C3DA /* Gs3.m4a */,
+				8E554EE72061E08200C8C3DA /* A3.m4a */,
+				8E554EDD2061E08000C8C3DA /* As3.m4a */,
+				8E554EE52061E08200C8C3DA /* B3.m4a */,
+				8E554EDE2061E08000C8C3DA /* C4.m4a */,
+				8E554EE82061E08200C8C3DA /* Cs4.m4a */,
+				8E554EE12061E08100C8C3DA /* D4.m4a */,
+				8E554EDF2061E08000C8C3DA /* Ds4.m4a */,
+				8E554EE32061E08100C8C3DA /* E4.m4a */,
+				8E554EE02061E08100C8C3DA /* F4.m4a */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		8E16B12C2061C950001F9B6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E4FD097232314EC00E3F2A3 /* CoreMotion.framework */,
+				8EF386AA23166149003D69A1 /* PDFKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E41C7E1207035D30048FC4C /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF6A30230CC9FE007A1A02 /* ChordDefines.swift */,
+				8EEF6A2A230CC9FB007A1A02 /* OneChordModel.swift */,
+				8E65A6262130F11200BCD088 /* PlayChordProtocol.swift */,
+				8E16B1282061C6BF001F9B6A /* Resources */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E16B0EA2061C059001F9B6A /* sinerpro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E16B1242061C05A001F9B6A /* Build configuration list for PBXNativeTarget "sinerpro" */;
+			buildPhases = (
+				8E16B0E72061C059001F9B6A /* Sources */,
+				8E16B0E82061C059001F9B6A /* Frameworks */,
+				8E16B0E92061C059001F9B6A /* Resources */,
+				8E16B1232061C05A001F9B6A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E16B1002061C05A001F9B6A /* PBXTargetDependency */,
+			);
+			name = sinerpro;
+			productName = wKeys;
+			productReference = 8E16B0EB2061C059001F9B6A /* sinerpro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E16B0FC2061C05A001F9B6A /* sinerpro WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E16B1202061C05A001F9B6A /* Build configuration list for PBXNativeTarget "sinerpro WatchKit App" */;
+			buildPhases = (
+				8E16B0FB2061C05A001F9B6A /* Resources */,
+				8E16B11F2061C05A001F9B6A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E16B10F2061C05A001F9B6A /* PBXTargetDependency */,
+			);
+			name = "sinerpro WatchKit App";
+			productName = "wKeys WatchKit App";
+			productReference = 8E16B0FD2061C05A001F9B6A /* sinerpro.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8E16B10B2061C05A001F9B6A /* sinerpro WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E16B11C2061C05A001F9B6A /* Build configuration list for PBXNativeTarget "sinerpro WatchKit Extension" */;
+			buildPhases = (
+				8E16B1082061C05A001F9B6A /* Sources */,
+				8E16B1092061C05A001F9B6A /* Frameworks */,
+				8E16B10A2061C05A001F9B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sinerpro WatchKit Extension";
+			productName = "wKeys WatchKit Extension";
+			productReference = 8E16B10C2061C05A001F9B6A /* sinerpro.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E16B0E32061C059001F9B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = spoonikapps;
+				TargetAttributes = {
+					8E16B0EA2061C059001F9B6A = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+					8E16B0FC2061C05A001F9B6A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8E16B10B2061C05A001F9B6A = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8E16B0E62061C059001F9B6A /* Build configuration list for PBXProject "sinerpro" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E16B0E22061C059001F9B6A;
+			productRefGroup = 8E16B0EC2061C05A001F9B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E16B0EA2061C059001F9B6A /* sinerpro */,
+				8E16B0FC2061C05A001F9B6A /* sinerpro WatchKit App */,
+				8E16B10B2061C05A001F9B6A /* sinerpro WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E16B0E92061C059001F9B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E42CA07213211A400D8F8E6 /* Ds1.m4a in Resources */,
+				8E42CA01213211A400D8F8E6 /* A1.m4a in Resources */,
+				8E42CA0F213211A400D8F8E6 /* Gs1.m4a in Resources */,
+				8E42C9FF213211A400D8F8E6 /* C1.m4a in Resources */,
+				8ED12FB721292FCD003363FF /* F4.m4a in Resources */,
+				8E42CA0D213211A400D8F8E6 /* G1.m4a in Resources */,
+				8E42CA03213211A400D8F8E6 /* F1.m4a in Resources */,
+				8ED12FAF21292FCD003363FF /* A3.m4a in Resources */,
+				8ED12FAD21292FCD003363FF /* G3.m4a in Resources */,
+				8E11A7B3231D0C8C00FE180C /* iPadOSMain.storyboard in Resources */,
+				8E21A43421294BDD00116A8E /* A2.aif in Resources */,
+				8ED12FAC21292FCD003363FF /* Fs3.m4a in Resources */,
+				8E21A42C21293C8C00116A8E /* D2.m4a in Resources */,
+				8E42CA11213211A400D8F8E6 /* As1.m4a in Resources */,
+				8ED12FB121292FCD003363FF /* B3.m4a in Resources */,
+				8E42C9FD213211A400D8F8E6 /* D1.m4a in Resources */,
+				8ED12FA621292FCD003363FF /* C3.m4a in Resources */,
+				8E42CA05213211A400D8F8E6 /* Cs1.m4a in Resources */,
+				8ED12FAB21292FCD003363FF /* F3.m4a in Resources */,
+				8ED12FB021292FCD003363FF /* As3.m4a in Resources */,
+				8ED12FA921292FCD003363FF /* Ds3.m4a in Resources */,
+				8E21A43021293C8C00116A8E /* E2.m4a in Resources */,
+				8E21A42F21293C8C00116A8E /* Ds2.m4a in Resources */,
+				8ED12FB621292FCD003363FF /* E4.m4a in Resources */,
+				8E21A42D21293C8C00116A8E /* C2.m4a in Resources */,
+				8E42CA0B213211A400D8F8E6 /* Fs1.m4a in Resources */,
+				8E21A42E21293C8C00116A8E /* Cs2.m4a in Resources */,
+				8ED12FA221292FCD003363FF /* Gs2.m4a in Resources */,
+				8E16B0F92061C05A001F9B6A /* LaunchScreen.storyboard in Resources */,
+				8E42CA09213211A400D8F8E6 /* E1.m4a in Resources */,
+				8ED12FB421292FCD003363FF /* D4.m4a in Resources */,
+				8E16B0F62061C05A001F9B6A /* Assets.xcassets in Resources */,
+				8ED12FB321292FCD003363FF /* Cs4.m4a in Resources */,
+				8ED12FA421292FCD003363FF /* As2.m4a in Resources */,
+				8ED12FA821292FCD003363FF /* D3.m4a in Resources */,
+				8ED12F9F21292FCD003363FF /* F2.m4a in Resources */,
+				8EF386AD23166375003D69A1 /* manual.pdf in Resources */,
+				8E42C9FB213211A400D8F8E6 /* B1.m4a in Resources */,
+				8ED12FAA21292FCD003363FF /* E3.m4a in Resources */,
+				8ED12FB221292FCD003363FF /* C4.m4a in Resources */,
+				8E16B0F42061C05A001F9B6A /* iPhoneMain.storyboard in Resources */,
+				8ED12FA321292FCD003363FF /* A2.m4a in Resources */,
+				8ED12F9E21292FCD003363FF /* silent.m4a in Resources */,
+				8ED12FAE21292FCD003363FF /* Gs3.m4a in Resources */,
+				8ED12F9921291916003363FF /* Perfect Sine.sf2 in Resources */,
+				8ED12FA721292FCD003363FF /* Cs3.m4a in Resources */,
+				8ED12FA021292FCD003363FF /* Fs2.m4a in Resources */,
+				8ED12FA521292FCD003363FF /* B2.m4a in Resources */,
+				8ED12FB521292FCD003363FF /* Ds4.m4a in Resources */,
+				8ED12FA121292FCD003363FF /* G2.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E16B0FB2061C05A001F9B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF6A26230CC996007A1A02 /* Interface.storyboard in Resources */,
+				8E16B1062061C05A001F9B6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E16B10A2061C05A001F9B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E42CA0A213211A400D8F8E6 /* E1.m4a in Resources */,
+				8E95C81A212C37C200D3C9DB /* Ds2.m4a in Resources */,
+				8E42CA10213211A400D8F8E6 /* Gs1.m4a in Resources */,
+				8E42CA04213211A400D8F8E6 /* F1.m4a in Resources */,
+				8E95C819212C37C200D3C9DB /* D2.m4a in Resources */,
+				8ED85A72206D0F160026A766 /* silent.m4a in Resources */,
+				8E42CA02213211A400D8F8E6 /* A1.m4a in Resources */,
+				8E42CA06213211A400D8F8E6 /* Cs1.m4a in Resources */,
+				8E95C81B212C37C200D3C9DB /* E2.m4a in Resources */,
+				8E42CA08213211A400D8F8E6 /* Ds1.m4a in Resources */,
+				8E554EEA2061E12200C8C3DA /* F3.m4a in Resources */,
+				8E42CA12213211A400D8F8E6 /* As1.m4a in Resources */,
+				8E42CA00213211A400D8F8E6 /* C1.m4a in Resources */,
+				8E42C9FE213211A400D8F8E6 /* D1.m4a in Resources */,
+				8E42CA0E213211A400D8F8E6 /* G1.m4a in Resources */,
+				8E554EEB2061E12200C8C3DA /* Fs3.m4a in Resources */,
+				8E554EEC2061E12200C8C3DA /* G3.m4a in Resources */,
+				8E554EED2061E12200C8C3DA /* Gs3.m4a in Resources */,
+				8E554EEE2061E12200C8C3DA /* A3.m4a in Resources */,
+				8E554EEF2061E12200C8C3DA /* As3.m4a in Resources */,
+				8E554EF02061E12200C8C3DA /* B3.m4a in Resources */,
+				8E554EF12061E12200C8C3DA /* C4.m4a in Resources */,
+				8E554EF22061E12200C8C3DA /* Cs4.m4a in Resources */,
+				8E554EF32061E12200C8C3DA /* D4.m4a in Resources */,
+				8E95C817212C37C200D3C9DB /* C2.m4a in Resources */,
+				8E554EF42061E12200C8C3DA /* Ds4.m4a in Resources */,
+				8E42C9FC213211A400D8F8E6 /* B1.m4a in Resources */,
+				8E554EF52061E12200C8C3DA /* E4.m4a in Resources */,
+				8E554EF62061E12200C8C3DA /* F4.m4a in Resources */,
+				8E42CA0C213211A400D8F8E6 /* Fs1.m4a in Resources */,
+				8E554ED12061DDA800C8C3DA /* A2.m4a in Resources */,
+				8E554ED22061DDA800C8C3DA /* As2.m4a in Resources */,
+				8E554ED32061DDA800C8C3DA /* B2.m4a in Resources */,
+				8E554ED42061DDA800C8C3DA /* C3.m4a in Resources */,
+				8E554ED52061DDA800C8C3DA /* Cs3.m4a in Resources */,
+				8E554ED62061DDA800C8C3DA /* D3.m4a in Resources */,
+				8E554ED72061DDA800C8C3DA /* Ds3.m4a in Resources */,
+				8E554ED82061DDA800C8C3DA /* E3.m4a in Resources */,
+				8E554ED92061DDA800C8C3DA /* F2.m4a in Resources */,
+				8E554EDA2061DDA800C8C3DA /* Fs2.m4a in Resources */,
+				8E554EDB2061DDA800C8C3DA /* G2.m4a in Resources */,
+				8E95C818212C37C200D3C9DB /* Cs2.m4a in Resources */,
+				8E554EDC2061DDA800C8C3DA /* Gs2.m4a in Resources */,
+				8E16B1182061C05A001F9B6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E16B0E72061C059001F9B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF386AF23166921003D69A1 /* HelpViewController.swift in Sources */,
+				8E7EBFB121286BFF00B455CB /* TouchableView.swift in Sources */,
+				8E16B0F12061C05A001F9B6A /* ViewController.swift in Sources */,
+				8EEF6A3C230CCAD9007A1A02 /* ChordDefines.swift in Sources */,
+				8EEF6A3B230CCABE007A1A02 /* OneChordModel.swift in Sources */,
+				8E840F4D230EA7E700577E06 /* AnalyzeTouchForm.swift in Sources */,
+				8E21A431212941B400116A8E /* AudioUnitMIDISynthChordPlayer.swift in Sources */,
+				8E16B0EF2061C05A001F9B6A /* AppDelegate.swift in Sources */,
+				8E65A6272130F11200BCD088 /* PlayChordProtocol.swift in Sources */,
+				8E21A432212941B400116A8E /* AudioUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E16B1082061C05A001F9B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF6A34230CC9FE007A1A02 /* OneChordModel.swift in Sources */,
+				8EEF6A3A230CC9FE007A1A02 /* ChordDefines.swift in Sources */,
+				8EEF6A3E230CD072007A1A02 /* AudioFilesChordPlayer.swift in Sources */,
+				8EEF6A38230CC9FE007A1A02 /* SequenceView.swift in Sources */,
+				8E65A6282130F11200BCD088 /* PlayChordProtocol.swift in Sources */,
+				8EEF6A33230CC9FE007A1A02 /* ExtensionDelegate.swift in Sources */,
+				8EEF6A36230CC9FE007A1A02 /* HostingController.swift in Sources */,
+				8EEF6A37230CC9FE007A1A02 /* UIColorHex.swift in Sources */,
+				8E7DA26824007CF8008E67E1 /* ScaleChordKeyboard.swift in Sources */,
+				8EE52427230CD66D00F980F1 /* ComplicationController.swift in Sources */,
+				8EEF6A31230CC9FE007A1A02 /* ChordMaker.swift in Sources */,
+				8EEF6A35230CC9FE007A1A02 /* ChordSequence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E16B1002061C05A001F9B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 8E16B0FC2061C05A001F9B6A /* sinerpro WatchKit App */;
+			targetProxy = 8E16B0FF2061C05A001F9B6A /* PBXContainerItemProxy */;
+		};
+		8E16B10F2061C05A001F9B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E16B10B2061C05A001F9B6A /* sinerpro WatchKit Extension */;
+			targetProxy = 8E16B10E2061C05A001F9B6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E11A7B1231D0C8C00FE180C /* iPadOSMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E11A7B2231D0C8C00FE180C /* Base */,
+			);
+			name = iPadOSMain.storyboard;
+			sourceTree = "<group>";
+		};
+		8E16B0F22061C05A001F9B6A /* iPhoneMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E16B0F32061C05A001F9B6A /* Base */,
+			);
+			name = iPhoneMain.storyboard;
+			sourceTree = "<group>";
+		};
+		8E16B0F72061C05A001F9B6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E16B0F82061C05A001F9B6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E16B11A2061C05A001F9B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E16B11B2061C05A001F9B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E16B11D2061C05A001F9B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.0.0;
+				DEVELOPMENT_TEAM = H8SH54Z892;
+				INFOPLIST_FILE = "$(SRCROOT)/sinerpro WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 4.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonikapps.sinerpro.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		8E16B11E2061C05A001F9B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.0.0;
+				DEVELOPMENT_TEAM = H8SH54Z892;
+				INFOPLIST_FILE = "$(SRCROOT)/sinerpro WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 4.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonikapps.sinerpro.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		8E16B1212061C05A001F9B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.0.0;
+				DEVELOPMENT_TEAM = H8SH54Z892;
+				IBSC_MODULE = sinerpro_WatchKit_Extension;
+				INFOPLIST_FILE = "$(SRCROOT)/sinerpro WatchKit App/Info.plist";
+				MARKETING_VERSION = 4.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonikapps.sinerpro.watchkitapp;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		8E16B1222061C05A001F9B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.0.0;
+				DEVELOPMENT_TEAM = H8SH54Z892;
+				IBSC_MODULE = sinerpro_WatchKit_Extension;
+				INFOPLIST_FILE = "$(SRCROOT)/sinerpro WatchKit App/Info.plist";
+				MARKETING_VERSION = 4.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonikapps.sinerpro.watchkitapp;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		8E16B1252061C05A001F9B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = sinerpro/sinerpro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.0.0;
+				DEVELOPMENT_TEAM = H8SH54Z892;
+				INFOPLIST_FILE = "$(SRCROOT)/sinerpro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonikapps.sinerpro;
+				PRODUCT_NAME = sinerpro;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E16B1262061C05A001F9B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = sinerpro/sinerpro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.0.0;
+				DEVELOPMENT_TEAM = H8SH54Z892;
+				INFOPLIST_FILE = "$(SRCROOT)/sinerpro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonikapps.sinerpro;
+				PRODUCT_NAME = sinerpro;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E16B0E62061C059001F9B6A /* Build configuration list for PBXProject "sinerpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E16B11A2061C05A001F9B6A /* Debug */,
+				8E16B11B2061C05A001F9B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E16B11C2061C05A001F9B6A /* Build configuration list for PBXNativeTarget "sinerpro WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E16B11D2061C05A001F9B6A /* Debug */,
+				8E16B11E2061C05A001F9B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E16B1202061C05A001F9B6A /* Build configuration list for PBXNativeTarget "sinerpro WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E16B1212061C05A001F9B6A /* Debug */,
+				8E16B1222061C05A001F9B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E16B1242061C05A001F9B6A /* Build configuration list for PBXNativeTarget "sinerpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E16B1252061C05A001F9B6A /* Debug */,
+				8E16B1262061C05A001F9B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E16B0E32061C059001F9B6A /* Project object */;
+}
